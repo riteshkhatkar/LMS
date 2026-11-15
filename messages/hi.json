@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "courses": "[HI_TODO] Courses",
+    "training": "[HI_TODO] FPO/FPC Training",
+    "howItWorks": "[HI_TODO] How It Works",
+    "verify": "[HI_TODO] Verify Certificate",
+    "help": "[HI_TODO] Help",
+    "login": "[HI_TODO] Log in",
+    "getStarted": "[HI_TODO] Get Started",
+    "myLearning": "[HI_TODO] My Learning",
+    "myTraining": "मेरे प्रशिक्षण कार्यक्रम"
+  },
+  "hero": {
+    "eyebrow": "[HI_TODO] Learn LMS | Learning & Verified Certification",
+    "h1": "[HI_TODO] Learn practical skills. Prove what you've achieved.",
+    "supporting": "[HI_TODO] Explore step-by-step courses, practice with quizzes, track your progress, and earn certificates you can verify.",
+    "cta1": "[HI_TODO] Explore Courses",
+    "cta2": "[HI_TODO] Verify a Certificate"
+  },
+  "search": {
+    "placeholder": "[HI_TODO] What would you like to learn?",
+    "button": "[HI_TODO] Search",
+    "chips": [
+      "[HI_TODO] FPO Governance",
+      "[HI_TODO] Digital Skills",
+      "[HI_TODO] FPC Compliance",
+      "[HI_TODO] Application Training"
+    ]
+  },
+  "audience": {
+    "title": "[HI_TODO] Who are you learning for?",
+    "FPO": "[HI_TODO] FPO Members",
+    "FPC": "[HI_TODO] FPC Teams",
+    "STUDENT": "[HI_TODO] Students",
+    "NAVAL_OFFICER": "[HI_TODO] Naval Officers"
+  },
+  "courses": {
+    "featured": "[HI_TODO] Featured Courses",
+    "viewAll": "[HI_TODO] View all courses",
+    "viewCourse": "[HI_TODO] View Course",
+    "enroll": "[HI_TODO] Enrol in Course",
+    "continueLearning": "[HI_TODO] Continue Learning",
+    "levels": {
+      "beginner": "[HI_TODO] Beginner",
+      "intermediate": "[HI_TODO] Intermediate",
+      "advanced": "[HI_TODO] Advanced"
+    },
+    "certificate": "[HI_TODO] Certificate available",
+    "modules": "[HI_TODO] modules",
+    "lessons": "[HI_TODO] lessons"
+  },
+  "howItWorks": {
+    "title": "[HI_TODO] How learning works",
+    "steps": [
+      {
+        "title": "[HI_TODO] Choose a course",
+        "desc": "[HI_TODO] Browse courses for your role and goals."
+      },
+      {
+        "title": "[HI_TODO] Learn and practice",
+        "desc": "[HI_TODO] Follow lessons, watch videos and take quizzes."
+      },
+      {
+        "title": "[HI_TODO] Complete the assessment",
+        "desc": "[HI_TODO] Show what you have learned in the final test."
+      },
+      {
+        "title": "[HI_TODO] Verify your certificate",
+        "desc": "[HI_TODO] Share and verify your achievement anywhere."
+      }
+    ]
+  },
+  "training": {
+    "title": "[HI_TODO] Training that helps your team get started",
+    "subtitle": "[HI_TODO] Dedicated onboarding for FPOs, FPCs and Naval Officers",
+    "cta": "[HI_TODO] Explore Training"
+  },
+  "cert": {
+    "trustTitle": "[HI_TODO] Earn a certificate that can be checked",
+    "trustDesc": "[HI_TODO] Certificates are issued after you complete the required lessons and pass the final assessment.",
+    "cta": "[HI_TODO] See Verification",
+    "demoNote": "[HI_TODO] Demo verification — not yet anchored on a public blockchain."
+  },
+  "why": {
+    "title": "[HI_TODO] Why Learn LMS?",
+    "items": [
+      {
+        "title": "[HI_TODO] Structured lessons",
+        "desc": "[HI_TODO] Step-by-step content built for practical learners."
+      },
+      {
+        "title": "[HI_TODO] Clear progress",
+        "desc": "[HI_TODO] See exactly where you are and what comes next."
+      },
+      {
+        "title": "[HI_TODO] Fair assessments",
+        "desc": "[HI_TODO] Transparent scoring with configurable grade rules."
+      },
+      {
+        "title": "[HI_TODO] Verifiable results",
+        "desc": "[HI_TODO] Certificates you can share and others can check."
+      },
+      {
+        "title": "[HI_TODO] Regional languages",
+        "desc": "[HI_TODO] Available in English, Hindi and Marathi."
+      }
+    ]
+  },
+  "faq": {
+    "title": "[HI_TODO] Frequently Asked Questions"
+  },
+  "footer": {
+    "courses": "[HI_TODO] Courses",
+    "training": "[HI_TODO] Training",
+    "howItWorks": "[HI_TODO] How It Works",
+    "verify": "[HI_TODO] Verify",
+    "help": "[HI_TODO] Help",
+    "privacy": "[HI_TODO] Privacy Policy",
+    "terms": "[HI_TODO] Terms of Use",
+    "accessibility": "[HI_TODO] Accessibility",
+    "newsletter": "[HI_TODO] Newsletter Preferences",
+    "copy": "[HI_TODO] Learn LMS. All rights reserved.",
+    "demoNote": "[HI_TODO] This is a demo platform. Sample content only."
+  },
+  "verify": {
+    "title": "[HI_TODO] Verify a Course Certificate",
+    "subtitle": "[HI_TODO] Enter a certificate ID or scan the QR code on a Learn LMS certificate.",
+    "placeholder": "[HI_TODO] Enter certificate ID (e.g. DEMO-VALID-001)",
+    "button": "[HI_TODO] Verify",
+    "states": {
+      "VALID": "[HI_TODO] Certificate is valid",
+      "REVOKED": "[HI_TODO] Certificate has been revoked",
+      "NOT_FOUND": "[HI_TODO] Certificate not found",
+      "PENDING": "[HI_TODO] Verification pending",
+      "VERIFY_ERROR": "[HI_TODO] Verification unavailable"
+    },
+    "demoIds": "[HI_TODO] Demo certificate IDs to try:",
+    "fields": {
+      "id": "[HI_TODO] Certificate ID",
+      "issuer": "[HI_TODO] Issuer",
+      "course": "[HI_TODO] Course",
+      "issued": "[HI_TODO] Issue date",
+      "grade": "[HI_TODO] Grade",
+      "outcome": "[HI_TODO] Outcome"
+    }
+  },
+  "locale": {
+    "incomplete": "[HI_TODO] Translation in progress — displaying English.",
+    "switch": "[HI_TODO] Change language"
+  },
+  "common": {
+    "demoData": "[HI_TODO] Demo data",
+    "learnMore": "[HI_TODO] Learn more",
+    "back": "[HI_TODO] Back",
+    "loading": "[HI_TODO] Loading…",
+    "error": "[HI_TODO] Something went wrong. Please try again.",
+    "noResults": "[HI_TODO] No results found."
+  },
+  "training": {
+    "title": "अनुप्रयोग प्रशिक्षण",
+    "subtitle": "एफपीओ, एफपीसी और नौसेना अधिकारियों के लिए समर्पित ऑनबोर्डिंग और अनुप्रयोग प्रशिक्षण।",
+    "myTraining": "मेरे प्रशिक्षण कार्यक्रम",
+    "walkthrough": "मार्गदर्शित अनुप्रयोग वॉकथ्रू",
+    "demoDisclaimer": "प्रदर्शन सामग्री — अनुप्रयोग-विशिष्ट सत्यापन लंबित",
+    "restricted": "प्रतिबंधित मंजूरी",
+    "progress": "प्रगति ट्रैक करें",
+    "completed": "प्रशिक्षण पूर्ण",
+    "resume": "मॉड्यूल पुनः आरंभ करें",
+    "start": "मॉड्यूल प्रारंभ करें",
+    "executeStep": "चरण निष्पादित करें और पुष्टि करें"
+  }
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" fill="none" role="img" aria-label="FPC Operations and Compliance Course Thumbnail">
+  <rect width="400" height="225" fill="#EEF8EF"/>
+  <circle cx="350" cy="50" r="70" fill="#43A047" opacity="0.12"/>
+  <circle cx="50" cy="170" r="60" fill="#43A047" opacity="0.08"/>
+  <g transform="translate(145, 40)">
+    <rect x="0" y="15" width="110" height="135" rx="10" fill="#FFFFFF" stroke="#43A047" stroke-width="4"/>
+    <rect x="35" y="5" width="40" height="20" rx="4" fill="#388E3C"/>
+    <circle cx="55" cy="12" r="4" fill="#FFFFFF"/>
+    <circle cx="25" cy="48" r="8" fill="#43A047"/>
+    <path d="M22 48 L24 50 L28 45" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="42" y="44" width="50" height="6" rx="3" fill="#1A1A2E"/>
+    <circle cx="25" cy="76" r="8" fill="#43A047"/>
+    <path d="M22 76 L24 78 L28 73" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="42" y="72" width="45" height="6" rx="3" fill="#1A1A2E"/>
+    <circle cx="25" cy="104" r="8" fill="#43A047"/>
+    <path d="M22 104 L24 106 L28 101" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="42" y="100" width="55" height="6" rx="3" fill="#1A1A2E"/>
+    <circle cx="25" cy="130" r="8" fill="#C8E6C9"/>
+    <rect x="42" y="127" width="35" height="6" rx="3" fill="#94A3B8"/>
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+# ==============================================================================
+# Learn LMS — Docker Compose Orchestration (App + PostgreSQL 18)
+# Product by ORELSE (https://www.orelse.ai)
+# ==============================================================================
+
+version: '3.8'
+
+services:
+  # -------------------------------------------------------------
+  # PostgreSQL 18 Database Service
+  # -------------------------------------------------------------
+  db:
+    image: postgres:18-alpine
+    container_name: learnlms-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-learnlms}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change_me_in_production}
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d learnlms"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # -------------------------------------------------------------
+  # Learn LMS Next.js 16 Web Application Service
+  # -------------------------------------------------------------
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: learnlms-web
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-change_me_in_production}@db:5432/${POSTGRES_DB:-learnlms}?schema=public
+      JWT_SECRET: ${JWT_SECRET:-replace_with_64_char_secure_random_key_in_production}
+      NEXT_PUBLIC_APP_URL: ${NEXT_PUBLIC_APP_URL:-https://learn.orelse.ai}
+      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://learn.orelse.ai}
+      LEDGER_MODE: ${LEDGER_MODE:-mock}
+      CERTIFICATE_ISSUER_NAME: "ORELSE"
+      CERTIFICATE_ISSUER_URI: "https://learn.orelse.ai/issuer/orelse"
+      CERTIFICATE_ISSUER_ID: "ORELSE-PROD-ISSUER-001"
+      CERTIFICATE_PROGRAMME: "ORELSE Learning Certification"
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://127.0.0.1:3000/api/health/live || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  postgres_data:
+    driver: local

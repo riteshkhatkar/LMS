@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "courses": "[MR_TODO] Courses",
+    "training": "[MR_TODO] FPO/FPC Training",
+    "howItWorks": "[MR_TODO] How It Works",
+    "verify": "[MR_TODO] Verify Certificate",
+    "help": "[MR_TODO] Help",
+    "login": "[MR_TODO] Log in",
+    "getStarted": "[MR_TODO] Get Started",
+    "myLearning": "[MR_TODO] My Learning",
+    "myTraining": "माझे प्रशिक्षण कार्यक्रम"
+  },
+  "hero": {
+    "eyebrow": "[MR_TODO] Learn LMS | Learning & Verified Certification",
+    "h1": "[MR_TODO] Learn practical skills. Prove what you've achieved.",
+    "supporting": "[MR_TODO] Explore step-by-step courses, practice with quizzes, track your progress, and earn certificates you can verify.",
+    "cta1": "[MR_TODO] Explore Courses",
+    "cta2": "[MR_TODO] Verify a Certificate"
+  },
+  "search": {
+    "placeholder": "[MR_TODO] What would you like to learn?",
+    "button": "[MR_TODO] Search",
+    "chips": [
+      "[MR_TODO] FPO Governance",
+      "[MR_TODO] Digital Skills",
+      "[MR_TODO] FPC Compliance",
+      "[MR_TODO] Application Training"
+    ]
+  },
+  "audience": {
+    "title": "[MR_TODO] Who are you learning for?",
+    "FPO": "[MR_TODO] FPO Members",
+    "FPC": "[MR_TODO] FPC Teams",
+    "STUDENT": "[MR_TODO] Students",
+    "NAVAL_OFFICER": "[MR_TODO] Naval Officers"
+  },
+  "courses": {
+    "featured": "[MR_TODO] Featured Courses",
+    "viewAll": "[MR_TODO] View all courses",
+    "viewCourse": "[MR_TODO] View Course",
+    "enroll": "[MR_TODO] Enrol in Course",
+    "continueLearning": "[MR_TODO] Continue Learning",
+    "levels": {
+      "beginner": "[MR_TODO] Beginner",
+      "intermediate": "[MR_TODO] Intermediate",
+      "advanced": "[MR_TODO] Advanced"
+    },
+    "certificate": "[MR_TODO] Certificate available",
+    "modules": "[MR_TODO] modules",
+    "lessons": "[MR_TODO] lessons"
+  },
+  "howItWorks": {
+    "title": "[MR_TODO] How learning works",
+    "steps": [
+      {
+        "title": "[MR_TODO] Choose a course",
+        "desc": "[MR_TODO] Browse courses for your role and goals."
+      },
+      {
+        "title": "[MR_TODO] Learn and practice",
+        "desc": "[MR_TODO] Follow lessons, watch videos and take quizzes."
+      },
+      {
+        "title": "[MR_TODO] Complete the assessment",
+        "desc": "[MR_TODO] Show what you have learned in the final test."
+      },
+      {
+        "title": "[MR_TODO] Verify your certificate",
+        "desc": "[MR_TODO] Share and verify your achievement anywhere."
+      }
+    ]
+  },
+  "training": {
+    "title": "[MR_TODO] Training that helps your team get started",
+    "subtitle": "[MR_TODO] Dedicated onboarding for FPOs, FPCs and Naval Officers",
+    "cta": "[MR_TODO] Explore Training"
+  },
+  "cert": {
+    "trustTitle": "[MR_TODO] Earn a certificate that can be checked",
+    "trustDesc": "[MR_TODO] Certificates are issued after you complete the required lessons and pass the final assessment.",
+    "cta": "[MR_TODO] See Verification",
+    "demoNote": "[MR_TODO] Demo verification — not yet anchored on a public blockchain."
+  },
+  "why": {
+    "title": "[MR_TODO] Why Learn LMS?",
+    "items": [
+      {
+        "title": "[MR_TODO] Structured lessons",
+        "desc": "[MR_TODO] Step-by-step content built for practical learners."
+      },
+      {
+        "title": "[MR_TODO] Clear progress",
+        "desc": "[MR_TODO] See exactly where you are and what comes next."
+      },
+      {
+        "title": "[MR_TODO] Fair assessments",
+        "desc": "[MR_TODO] Transparent scoring with configurable grade rules."
+      },
+      {
+        "title": "[MR_TODO] Verifiable results",
+        "desc": "[MR_TODO] Certificates you can share and others can check."
+      },
+      {
+        "title": "[MR_TODO] Regional languages",
+        "desc": "[MR_TODO] Available in English, Hindi and Marathi."
+      }
+    ]
+  },
+  "faq": {
+    "title": "[MR_TODO] Frequently Asked Questions"
+  },
+  "footer": {
+    "courses": "[MR_TODO] Courses",
+    "training": "[MR_TODO] Training",
+    "howItWorks": "[MR_TODO] How It Works",
+    "verify": "[MR_TODO] Verify",
+    "help": "[MR_TODO] Help",
+    "privacy": "[MR_TODO] Privacy Policy",
+    "terms": "[MR_TODO] Terms of Use",
+    "accessibility": "[MR_TODO] Accessibility",
+    "newsletter": "[MR_TODO] Newsletter Preferences",
+    "copy": "[MR_TODO] Learn LMS. All rights reserved.",
+    "demoNote": "[MR_TODO] This is a demo platform. Sample content only."
+  },
+  "verify": {
+    "title": "[MR_TODO] Verify a Course Certificate",
+    "subtitle": "[MR_TODO] Enter a certificate ID or scan the QR code on a Learn LMS certificate.",
+    "placeholder": "[MR_TODO] Enter certificate ID (e.g. DEMO-VALID-001)",
+    "button": "[MR_TODO] Verify",
+    "states": {
+      "VALID": "[MR_TODO] Certificate is valid",
+      "REVOKED": "[MR_TODO] Certificate has been revoked",
+      "NOT_FOUND": "[MR_TODO] Certificate not found",
+      "PENDING": "[MR_TODO] Verification pending",
+      "VERIFY_ERROR": "[MR_TODO] Verification unavailable"
+    },
+    "demoIds": "[MR_TODO] Demo certificate IDs to try:",
+    "fields": {
+      "id": "[MR_TODO] Certificate ID",
+      "issuer": "[MR_TODO] Issuer",
+      "course": "[MR_TODO] Course",
+      "issued": "[MR_TODO] Issue date",
+      "grade": "[MR_TODO] Grade",
+      "outcome": "[MR_TODO] Outcome"
+    }
+  },
+  "locale": {
+    "incomplete": "[MR_TODO] Translation in progress — displaying English.",
+    "switch": "[MR_TODO] Change language"
+  },
+  "common": {
+    "demoData": "[MR_TODO] Demo data",
+    "learnMore": "[MR_TODO] Learn more",
+    "back": "[MR_TODO] Back",
+    "loading": "[MR_TODO] Loading…",
+    "error": "[MR_TODO] Something went wrong. Please try again.",
+    "noResults": "[MR_TODO] No results found."
+  },
+  "training": {
+    "title": "अॅप्लिकेशन प्रशिक्षण",
+    "subtitle": "एफपीओ, एफपीसी आणि नौदल अधिकाऱ्यांसाठी समर्पित ऑनबोर्डिंग आणि कौशल्य प्रशिक्षण.",
+    "myTraining": "माझे प्रशिक्षण कार्यक्रम",
+    "walkthrough": "मार्गदर्शित अॅप्लिकेशन वॉकथ्रू",
+    "demoDisclaimer": "प्रात्यक्षिक सामग्री — अनुप्रयोग-विशिष्ट पडताळणी प्रलंबित",
+    "restricted": "प्रतिबंधित मंजुरी",
+    "progress": "प्रगती ट्रॅक करा",
+    "completed": "प्रशिक्षण पूर्ण",
+    "resume": "मॉड्यूल पुन्हा सुरू करा",
+    "start": "मॉड्यूल सुरू करा",
+    "executeStep": "पायरी कार्यान्वित करा आणि पुष्टी करा"
+  }
+}

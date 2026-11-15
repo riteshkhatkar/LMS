@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+:root {
+  --brand-sky-blue: #3E9BDB;
+  --brand-teal: #1F9E94;
+  --brand-orange: #EE8A2B;
+  --brand-orange-text: #B85E00;
+  --brand-purple: #8E6BBF;
+  --brand-green: #43A047;
+  --brand-coral: #E5624F;
+  --brand-pale: #EAF4FC;
+  --brand-dark: #1A1A2E;
+  --brand-mid: #2D3748;
+  --radius-card: 0.75rem;
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-card-hover: 0 4px 16px rgba(62, 155, 219, 0.15);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  color: var(--brand-dark);
+  background-color: #ffffff;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  background: var(--brand-sky-blue);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+  font-weight: 600;
+  z-index: 9999;
+  text-decoration: none;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+:focus-visible {
+  outline: 3px solid var(--brand-sky-blue);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.demo-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: #FFF3CD;
+  color: #856404;
+  border: 1px solid #FFECB5;
+  padding: 0.25rem 0.625rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.mock-ledger-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: #E8F4FD;
+  color: #0C5460;
+  border: 1px solid #BEE5EB;
+  padding: 0.25rem 0.625rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}

@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "courses": "Courses",
+    "training": "FPO/FPC Training",
+    "howItWorks": "How It Works",
+    "verify": "Verify Certificate",
+    "help": "Help",
+    "login": "Log in",
+    "getStarted": "Get Started",
+    "myLearning": "My Learning",
+    "myTraining": "My Training"
+  },
+  "hero": {
+    "eyebrow": "Learn LMS | Learning & Verified Certification",
+    "h1": "Learn practical skills. Prove what you've achieved.",
+    "supporting": "Explore step-by-step courses, practice with quizzes, track your progress, and earn certificates you can verify.",
+    "cta1": "Explore Courses",
+    "cta2": "Verify a Certificate"
+  },
+  "search": {
+    "placeholder": "What would you like to learn?",
+    "button": "Search",
+    "chips": [
+      "FPO Governance",
+      "Digital Skills",
+      "FPC Compliance",
+      "Application Training"
+    ]
+  },
+  "audience": {
+    "title": "Who are you learning for?",
+    "FPO": "FPO Members",
+    "FPC": "FPC Teams",
+    "STUDENT": "Students",
+    "NAVAL_OFFICER": "Naval Officers"
+  },
+  "courses": {
+    "featured": "Featured Courses",
+    "viewAll": "View all courses",
+    "viewCourse": "View Course",
+    "enroll": "Enrol in Course",
+    "continueLearning": "Continue Learning",
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "certificate": "Certificate available",
+    "modules": "modules",
+    "lessons": "lessons"
+  },
+  "howItWorks": {
+    "title": "How learning works",
+    "steps": [
+      {
+        "title": "Choose a course",
+        "desc": "Browse courses for your role and goals."
+      },
+      {
+        "title": "Learn and practice",
+        "desc": "Follow lessons, watch videos and take quizzes."
+      },
+      {
+        "title": "Complete the assessment",
+        "desc": "Show what you have learned in the final test."
+      },
+      {
+        "title": "Verify your certificate",
+        "desc": "Share and verify your achievement anywhere."
+      }
+    ]
+  },
+  "training": {
+    "title": "Training that helps your team get started",
+    "subtitle": "Dedicated onboarding for FPOs, FPCs and Naval Officers",
+    "cta": "Explore Training"
+  },
+  "cert": {
+    "trustTitle": "Earn a certificate that can be checked",
+    "trustDesc": "Certificates are issued after you complete the required lessons and pass the final assessment.",
+    "cta": "See Verification",
+    "demoNote": "Demo verification — not yet anchored on a public blockchain."
+  },
+  "why": {
+    "title": "Why Learn LMS?",
+    "items": [
+      {
+        "title": "Structured lessons",
+        "desc": "Step-by-step content built for practical learners."
+      },
+      {
+        "title": "Clear progress",
+        "desc": "See exactly where you are and what comes next."
+      },
+      {
+        "title": "Fair assessments",
+        "desc": "Transparent scoring with configurable grade rules."
+      },
+      {
+        "title": "Verifiable results",
+        "desc": "Certificates you can share and others can check."
+      },
+      {
+        "title": "Regional languages",
+        "desc": "Available in English, Hindi and Marathi."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions"
+  },
+  "footer": {
+    "courses": "Courses",
+    "training": "Training",
+    "howItWorks": "How It Works",
+    "verify": "Verify",
+    "help": "Help",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "accessibility": "Accessibility",
+    "newsletter": "Newsletter Preferences",
+    "copy": "Learn LMS. All rights reserved.",
+    "demoNote": "This is a demo platform. Sample content only."
+  },
+  "verify": {
+    "title": "Verify a Course Certificate",
+    "subtitle": "Enter a certificate ID or scan the QR code on a Learn LMS certificate.",
+    "placeholder": "Enter certificate ID (e.g. DEMO-VALID-001)",
+    "button": "Verify",
+    "states": {
+      "VALID": "Certificate is valid",
+      "REVOKED": "Certificate has been revoked",
+      "NOT_FOUND": "Certificate not found",
+      "PENDING": "Verification pending",
+      "VERIFY_ERROR": "Verification unavailable"
+    },
+    "demoIds": "Demo certificate IDs to try:",
+    "fields": {
+      "id": "Certificate ID",
+      "issuer": "Issuer",
+      "course": "Course",
+      "issued": "Issue date",
+      "grade": "Grade",
+      "outcome": "Outcome"
+    }
+  },
+  "locale": {
+    "incomplete": "Translation in progress — displaying English.",
+    "switch": "Change language"
+  },
+  "common": {
+    "demoData": "Demo data",
+    "learnMore": "Learn more",
+    "back": "Back",
+    "loading": "Loading…",
+    "error": "Something went wrong. Please try again.",
+    "noResults": "No results found."
+  },
+  "training": {
+    "title": "Application Training",
+    "subtitle": "Dedicated onboarding and application skills training for FPOs, FPCs, and Naval Officers.",
+    "myTraining": "My Training Programmes",
+    "walkthrough": "Guided Application Walkthrough",
+    "demoDisclaimer": "Demonstration content — pending application-specific verification",
+    "restricted": "Restricted Clearance",
+    "progress": "Track Progress",
+    "completed": "Track Completed",
+    "resume": "Resume Module",
+    "start": "Start Module",
+    "executeStep": "Execute & Confirm Step"
+  }
+}

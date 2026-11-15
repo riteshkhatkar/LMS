@@ -1,0 +1,32 @@
+export const brand = {
+  name: "Learn LMS",
+  tagline: "Learn practical skills. Prove what you've achieved.",
+  domain: process.env.NEXT_PUBLIC_SITE_URL ?? "https://learn-lms.example.com",
+  verifyBaseUrl: "/verify",
+  ledgerMode: (process.env.LEDGER_MODE ?? "mock") as "mock" | "real",
+  supportedLocales: ["en", "hi", "mr"] as const,
+  defaultLocale: "en" as const,
+  colors: {
+    skyBlue: "#3E9BDB",
+    teal: "#1F9E94",
+    orange: "#EE8A2B",
+    purple: "#8E6BBF",
+    green: "#43A047",
+    coral: "#E5624F",
+    paleBackground: "#EAF4FC",
+  },
+  learnerGroups: {
+    FPO: "FPO Members",
+    FPC: "FPC Teams",
+    STUDENT: "Students",
+    NAVAL_OFFICER: "Naval Officers",
+  } as const,
+  categories: [
+    { id: "governance", label: "Governance" },
+    { id: "operations", label: "Operations & Compliance" },
+    { id: "digital-skills", label: "Digital Skills" },
+    { id: "app-training", label: "Application Training" },
+    { id: "finance", label: "Finance & Accounting" },
+    { id: "marketing", label: "Marketing & Sales" },
+  ],
+};

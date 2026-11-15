@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" role="img" aria-label="Learning platform illustration">
+  <!-- Soft background shapes -->
+  <rect width="400" height="300" rx="16" fill="#F8FAFC"/>
+  <circle cx="340" cy="60" r="45" fill="#EAF4FC"/>
+  <circle cx="60" cy="240" r="50" fill="#EAF4FC"/>
+
+  <!-- Main Dashboard Card -->
+  <rect x="50" y="40" width="300" height="220" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+
+  <!-- Card Header -->
+  <rect x="50" y="40" width="300" height="42" rx="12" fill="#3E9BDB"/>
+  <rect x="50" y="70" width="300" height="12" fill="#3E9BDB"/>
+  <circle cx="75" cy="61" r="5" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="92" cy="61" r="5" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="109" cy="61" r="5" fill="#FFFFFF" opacity="0.6"/>
+  <rect x="140" y="56" width="120" height="10" rx="5" fill="#FFFFFF" opacity="0.85"/>
+
+  <!-- Progress Bar Section -->
+  <rect x="75" y="102" width="250" height="8" rx="4" fill="#E2E8F0"/>
+  <rect x="75" y="102" width="180" height="8" rx="4" fill="#1F9E94"/>
+  <text x="75" y="96" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#1A1A2E">Course Progress</text>
+  <text x="295" y="96" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F9E94">72%</text>
+
+  <!-- Quiz / Lesson Checkmarks -->
+  <g transform="translate(75, 126)">
+    <!-- Lesson 1 -->
+    <rect x="0" y="0" width="115" height="42" rx="8" fill="#EAF4FC"/>
+    <circle cx="20" cy="21" r="10" fill="#43A047"/>
+    <path d="M16 21 L19 24 L25 17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="38" y="14" width="60" height="6" rx="3" fill="#1A1A2E"/>
+    <rect x="38" y="24" width="45" height="5" rx="2.5" fill="#94A3B8"/>
+
+    <!-- Lesson 2 -->
+    <rect x="135" y="0" width="115" height="42" rx="8" fill="#EAF4FC"/>
+    <circle cx="155" cy="21" r="10" fill="#43A047"/>
+    <path d="M151 21 L154 24 L160 17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="173" y="14" width="60" height="6" rx="3" fill="#1A1A2E"/>
+    <rect x="173" y="24" width="45" height="5" rx="2.5" fill="#94A3B8"/>
+  </g>
+
+  <!-- Verified Certificate Badge Box -->
+  <g transform="translate(75, 180)">
+    <rect x="0" y="0" width="250" height="62" rx="8" fill="#F0FDFA" stroke="#1F9E94" stroke-width="1.5" stroke-dasharray="4 3"/>
+    
+    <!-- Certificate Icon -->
+    <rect x="15" y="12" width="28" height="36" rx="3" fill="#FFFFFF" stroke="#3E9BDB" stroke-width="1.5"/>
+    <line x1="20" y1="20" x2="38" y2="20" stroke="#3E9BDB" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="20" y1="26" x2="35" y2="26" stroke="#94A3B8" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="20" y1="32" x2="32" y2="32" stroke="#94A3B8" stroke-width="1.2" stroke-linecap="round"/>
+    <circle cx="34" cy="38" r="5" fill="#EE8A2B"/>
+
+    <!-- Text -->
+    <text x="56" y="27" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1A1A2E">Verifiable Certificate</text>
+    <text x="56" y="42" font-family="system-ui, sans-serif" font-size="10" fill="#64748B">Instant verification on completion</text>
+    
+    <!-- Shield / Seal -->
+    <circle cx="225" cy="31" r="13" fill="#1F9E94"/>
+    <path d="M220 31 L224 35 L231 27" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
